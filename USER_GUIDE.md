@@ -1,105 +1,148 @@
 # Leads Generation & AI 
 
 ## 🚀 
-
-### 1. Instalasi
-```bash
+1. Installation
 npm install
 npm run web
-```
 
-### 2. Buka Browser
-Kunjungi: `http://localhost:3000`
+2. Open Browser
 
-## 📱 Fitur Utama
+Visit: http://localhost:3000
 
-### Dashboard Utama
-- **Total Kampanye**: Jumlah kampanye yang sudah dibuat
-- **Total Leads**: Jumlah leads yang berhasil dikumpulkan
-- **Priority Leads**: Leads berkualitas tinggi
-- **Rata-rata Skor**: Kualitas leads secara keseluruhan
+📱 Main Features
+Dashboard Overview
 
-### Membuat Kampanye Baru
-1. Klik tombol **"New Campaign"**
-2. Isi form:
-   - **Nama Kampanye**: Misal "Restaurant Jakarta Q1 2024"
-   - **Industri**: Pilih dari dropdown
-   - **Lokasi**: Area target (Jakarta, Bandung, dll)
-   - **Search Query**: Kata kunci pencarian
-   - **Jumlah Leads**: Target leads yang diinginkan
-   - **Gaya Kampanye**: Balanced/Aggressive/Conservative
-   - **Layanan Anda**: Deskripsi singkat produk/jasa
+Total Campaigns: Number of campaigns created
 
-3. Klik **"Create Campaign"**
+Total Leads: Total leads successfully collected
 
-### Mengelola Leads
-1. Masuk ke tab **"Leads"**
-2. Pilih kampanye dari dropdown
-3. Filter berdasarkan:
-   - **Priority Level**: Kualitas leads
-   - **Minimum Score**: Skor minimal
+Priority Leads: High-quality leads
 
-### Export Kontak
-- **CSV**: Untuk spreadsheet
-- **JSON**: Untuk aplikasi lain
-- **vCard**: Langsung simpan ke kontak HP ⭐
+Average Score: Overall lead quality
 
-## 📞 Export Kontak ke HP
+Creating a New Campaign
 
-### Format vCard
-Setiap lead bisa di-export sebagai file `.vcf` yang bisa langsung disimpan ke kontak HP:
+Click the "New Campaign" button
 
-1. Pilih lead yang diinginkan
-2. Klik **"Export vCard"**
-3. File akan otomatis ter-download
-4. Buka file di HP untuk menyimpan kontak
+Fill in the form:
 
-### Isi Kontak vCard:
-- Nama bisnis
-- Nomor telepon
-- Alamat lengkap
-- Website (jika ada)
-- Rating Google Maps
-- Catatan khusus
+Campaign Name: e.g., "Restaurant Jakarta Q1 2024"
 
-## 🔧 Tips Penggunaan
+Industry: Select from dropdown
 
-### Kampanye Efektif
-- Gunakan kata kunci spesifik
-- Mulai dengan 10-20 leads untuk testing
-- Fokus pada leads dengan skor >70
+Location: Target area (Jakarta, Bandung, etc.)
 
-### Manajemen Leads
-- Hubungi priority leads dalam 24 jam
-- Gunakan template AI yang sudah dibuat
-- Update status leads secara berkala
+Search Query: Keywords for searching
 
-### Mobile Usage
-- Dashboard responsive untuk HP
-- Export vCard langsung dari mobile
-- Notifikasi real-time
+Number of Leads: Desired target leads
 
-## ❓ Troubleshooting
+Campaign Style: Balanced / Aggressive / Conservative
 
-### Dashboard Tidak Muncul
-- Pastikan server berjalan (`npm run web`)
-- Cek port 3000 tidak digunakan aplikasi lain
-- Refresh browser
+Your Service: Short description of your product/service
 
-### Tidak Ada Data
-- Buat kampanye terlebih dahulu
-- Tunggu proses scraping selesai
-- Periksa koneksi internet
+Click "Create Campaign"
 
-### Export Gagal
-- Pastikan ada data untuk di-export
-- Coba format export yang berbeda
-- Periksa permission download browser
+Managing Leads
 
-## 📱 Kontak Support
-- GitHub Issues untuk bug report
-- Email: support@businessleads.ai
-- WhatsApp: +62-xxx-xxx-xxxx
+Go to the "Leads" tab
 
----
-*Panduan singkat untuk penggunaan Business Leads AI Dashboard*
+Select a campaign from the dropdown
+
+Filter by:
+
+Priority Level: Lead quality
+
+Minimum Score: Minimum quality score
+
+Exporting Contacts
+
+CSV: For spreadsheets
+
+JSON: For integration with other apps
+
+vCard: Save directly to your mobile contacts ⭐
+
+📞 Export Contacts to Mobile
+vCard Format
+
+Each lead can be exported as a .vcf file that can be directly saved to your phone contacts:
+
+Select the desired lead
+
+Click "Export vCard"
+
+The file will automatically download
+
+Open the file on your phone to save the contact
+
+vCard Contact Details:
+
+Business name
+
+Phone number
+
+Full address
+
+Website (if available)
+
+Google Maps rating
+
+Additional notes
+
+🔧 Usage Tips
+Effective Campaigns
+
+Use specific and focused keywords
+
+Start with 10–20 leads for testing
+
+Focus on leads with scores above 70
+
+Lead Management
+
+Contact priority leads within 24 hours
+
+Use available AI-generated templates
+
+Update lead status regularly
+
+Mobile Usage
+
+Responsive dashboard for mobile
+
+Export vCard directly from your phone
+
+Real-time notifications
+
+❓ Troubleshooting
+Dashboard Not Loading
+
+Ensure the server is running (npm run web)
+
+Check that port 3000 isn’t in use by another app
+
+Refresh your browser
+
+No Data Displayed
+
+Create a campaign first
+
+Wait until scraping is complete
+
+Check your internet connection
+
+Export Failed
+
+Make sure there’s data to export
+
+Try a different export format
+
+Check browser download permissions
+
+📱 Support Contact
+
+GitHub Issues for bug reports
+
+Email: Partners@capraecapital.com
+
+WhatsApp: +1-xxx-xxx-xxxx
