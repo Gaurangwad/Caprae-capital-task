@@ -1,6 +1,6 @@
-# Business Leads AI - Panduan Penggunaan
+# Leads Generation & AI 
 
-## 🚀 Cara Memulai
+## 🚀 
 
 ### 1. Instalasi
 ```bash
